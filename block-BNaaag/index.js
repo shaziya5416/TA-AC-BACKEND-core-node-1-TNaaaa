@@ -22,10 +22,10 @@ fs.readFile('./content.md'// filepath, (err, file) => {
 
 var fs = require (`fs`);
 
-fs.readFile(`/.content.md`,function(err,content){
+fs.readFile(`./content.md`,`utf8`,(err,content)=>{
     console.log(content);
 })
-
+/*
 //sync
 console.log("How're you");
 console.log("I am Great!");
@@ -48,3 +48,4 @@ console.log("I am Great!");
 
 console.log(buff1);
 console.log(buff1.toString());
+*/

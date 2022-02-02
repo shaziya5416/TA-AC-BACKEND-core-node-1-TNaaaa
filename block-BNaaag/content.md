@@ -1,1 +1,1 @@
-console.log("Wassup!!!!!!!")
+Wassup!
