@@ -18,8 +18,8 @@ function handleRequest(req,res){
   }
   else 
   if(req.method==="POST" && pathname==="/about"){
-    res.setHeader(`Content-Type`,`text/plain`);
-    res.end(`{This is a post rew}`)
+    res.setHeader(`Content-Type`,`application/json`);
+    res.end(`{message:This is a post rew}`)
   }
   else{
       res.statusCode=404;
